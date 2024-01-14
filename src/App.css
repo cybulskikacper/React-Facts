@@ -116,9 +116,6 @@ nav.dark .toggler--slider {
 
 /* MAIN styles */
 main {
-	display: grid;
-	align-items: center;
-	justify-content: center;
 	padding: 57px 27px;
 	background-image: url('./images/react-icon-light.png');
 	background-repeat: no-repeat;
@@ -127,6 +124,7 @@ main {
 	background-color: white;
 	color: #2b283a;
 	transition: background-color 0.5s;
+	text-align: center;
 }
 
 main.dark {
@@ -140,16 +138,19 @@ main.dark {
 	margin: 0;
 	font-size: 39px;
 	letter-spacing: -0.05em;
+	text-align: center;
 }
 
 .main--facts {
 	margin-top: 46px;
-	max-width: 400px;
+	display: inline-block;
+	text-align: left;
 }
 
 .main--facts > li {
 	line-height: 19px;
 	padding-block: 10px;
+	padding: 15px;
 }
 
 .main--facts > li::marker {
