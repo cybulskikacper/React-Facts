@@ -1,9 +1,10 @@
 import React from 'react'
+import ReactLogo from '../assets/react-icon-small.png'
 
 function Nav(props) {
 	return (
 		<nav className={props.darkMode ? 'dark' : ''}>
-			<img className="nav--logo_icon" src="./images/react-icon-small.png" />
+			<img className="nav--logo_icon" src={ReactLogo} />
 			<h3 className="nav--logo_text">ReactFacts</h3>
 
 			<div className="toggler">

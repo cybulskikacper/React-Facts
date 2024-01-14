@@ -116,6 +116,9 @@ nav.dark .toggler--slider {
 
 /* MAIN styles */
 main {
+	display: grid;
+	align-items: center;
+	justify-content: center;
 	padding: 57px 27px;
 	background-image: url('./images/react-icon-light.png');
 	background-repeat: no-repeat;
